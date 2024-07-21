@@ -20,3 +20,4 @@ https://ieeexplore.ieee.org/abstract/document/10296031
 練習使用sklearn套件，以Random Forest的方式訓練模型，
 做出以rally最後五拍的數據來預測勝負的模型，
 並且分析feature importance，做出簡單的視覺化圖表。
+[Week 3](/week3/week3_README.md)
