@@ -30,5 +30,5 @@ https://arxiv.org/pdf/1908.07442
 - 把球種整合成7個種類，
 - 對 hit area 做了 one-hot encoding
 - 使用 imblearn 套件處理好 imbalance 的問題
-- 使用 TabNet 訓練模型
+- 使用 TabNet 訓練模型 \
 [Week 4](/week4/week4_README.md)
