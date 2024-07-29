@@ -21,3 +21,14 @@ https://ieeexplore.ieee.org/abstract/document/10296031
 做出以rally最後五拍的數據來預測勝負的模型，\
 並且分析feature importance，做出簡單的視覺化圖表。\
 [Week 3](/week3/week3_README.md)
+
+## Week 4 (25/Jul/2024)
+### 閱讀論文:
+TabNet: Attentive Interpretable Tabular Learning\
+https://arxiv.org/pdf/1908.07442 
+### Research:
+- 把球種整合成7個種類，
+- 對 hit area 做了 one-hot encoding
+- 使用 imblearn 套件處理好 imbalance 的問題
+- 使用 TabNet 訓練模型
+[Week 4](/week4/week4_README.md)
