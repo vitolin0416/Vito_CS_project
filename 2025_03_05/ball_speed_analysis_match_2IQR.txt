@@ -1,0 +1,49 @@
+Shot Type Duration Analysis by Match Half (Outliers Removed with 2*IQR Rule)
+Total shots before cleaning - First Half of Match: 85887, Second Half of Match: 82354
+Total shots after cleaning - First Half of Match: 84445, Second Half of Match: 81138
+(Durations in frames, -1 values and outliers excluded)
+
+Summary:
+
+Shot Type: 切球
+First Half Match - Avg: 24.81, Q25: 22.0, Median: 25.0, Q75: 28.0, IQR: 6.0, Lower Bound: 10.0, Upper Bound: 40.0
+Second Half Match - Avg: 24.34, Q25: 21.0, Median: 24.0, Q75: 27.0, IQR: 6.0, Lower Bound: 9.0, Upper Bound: 39.0
+
+Shot Type: 平球
+First Half Match - Avg: 18.8, Q25: 14.0, Median: 17.0, Q75: 22.0, IQR: 9.0, Lower Bound: -4.0, Upper Bound: 41.0
+Second Half Match - Avg: 17.67, Q25: 14.0, Median: 16.0, Q75: 21.0, IQR: 7.0, Lower Bound: 0.0, Upper Bound: 35.0
+
+Shot Type: 挑球
+First Half Match - Avg: 38.78, Q25: 32.0, Median: 37.0, Q75: 44.0, IQR: 11.0, Lower Bound: 11.0, Upper Bound: 66.0
+Second Half Match - Avg: 38.92, Q25: 33.0, Median: 38.0, Q75: 44.0, IQR: 11.0, Lower Bound: 11.0, Upper Bound: 66.0
+
+Shot Type: 推撲球
+First Half Match - Avg: 25.87, Q25: 18.0, Median: 27.0, Q75: 33.0, IQR: 15.0, Lower Bound: -12.0, Upper Bound: 63.0
+Second Half Match - Avg: 24.38, Q25: 15.0, Median: 25.0, Q75: 32.0, IQR: 17.0, Lower Bound: -19.0, Upper Bound: 66.0
+
+Shot Type: 未知球種
+First Half Match - Avg: 45.56, Q25: 24.0, Median: 34.0, Q75: 59.0, IQR: 51.25, Lower Bound: -76.75, Upper Bound: 179.5
+Second Half Match - Avg: 43.04, Q25: 22.0, Median: 34.5, Q75: 54.0, IQR: 47.25, Lower Bound: -71.5, Upper Bound: 164.75
+
+Shot Type: 殺球
+First Half Match - Avg: 16.14, Q25: 13.0, Median: 16.0, Q75: 19.0, IQR: 6.0, Lower Bound: 1.0, Upper Bound: 31.0
+Second Half Match - Avg: 15.79, Q25: 13.0, Median: 15.0, Q75: 18.0, IQR: 5.0, Lower Bound: 3.0, Upper Bound: 28.0
+
+Shot Type: 發短球
+First Half Match - Avg: 21.92, Q25: 20.0, Median: 22.0, Q75: 24.0, IQR: 4.0, Lower Bound: 12.0, Upper Bound: 32.0
+Second Half Match - Avg: 21.46, Q25: 19.0, Median: 22.0, Q75: 24.0, IQR: 5.0, Lower Bound: 9.0, Upper Bound: 34.0
+
+Shot Type: 發長球
+First Half Match - Avg: 61.92, Q25: 60.0, Median: 63.0, Q75: 65.0, IQR: 9.0, Lower Bound: 38.0, Upper Bound: 83.0
+Second Half Match - Avg: 55.44, Q25: 49.0, Median: 61.0, Q75: 64.0, IQR: 15.0, Lower Bound: 19.0, Upper Bound: 94.0
+
+Shot Type: 網前小球
+First Half Match - Avg: 26.93, Q25: 24.0, Median: 27.0, Q75: 30.0, IQR: 6.0, Lower Bound: 12.0, Upper Bound: 42.0
+Second Half Match - Avg: 26.49, Q25: 24.0, Median: 26.0, Q75: 29.0, IQR: 5.0, Lower Bound: 14.0, Upper Bound: 39.0
+
+Shot Type: 長球
+First Half Match - Avg: 35.59, Q25: 31.0, Median: 35.0, Q75: 40.0, IQR: 9.0, Lower Bound: 13.0, Upper Bound: 58.0
+Second Half Match - Avg: 35.76, Q25: 31.0, Median: 35.0, Q75: 40.0, IQR: 9.0, Lower Bound: 13.0, Upper Bound: 58.0
+
+Observations (Average Duration Changes):
+- 發長球: Average duration decreased by 6.48 frames from first to second half of match

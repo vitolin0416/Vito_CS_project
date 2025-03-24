@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
+from sklearn.preprocessing import StandardScaler
 from pytorch_tabnet.tab_model import TabNetClassifier
 from imblearn.over_sampling import SMOTE
 from imblearn.under_sampling import RandomUnderSampler
@@ -13,8 +14,8 @@ from matplotlib.font_manager import FontProperties
 
 shot_file_name = '01_shot.csv'
 # change these with "out", "in" or "winning" to see different result
-rally_file_name = 'rally_out.csv'
-base_on = 'out'
+rally_file_name = 'rally_winning.csv'
+base_on = 'winning'
 
 # Detect the file encoding
 with open(rally_file_name, 'rb') as file:
@@ -48,6 +49,9 @@ shot = shot.drop(columns=['shot_1_player', 'shot_2_player', 'shot_3_player', 'sh
 final_df = pd.merge(shot, rally, on='rally_id', how='left')
 final_df = final_df[final_df[base_on] != -1]
 
+scaler = StandardScaler()
+final_df = scaler.fit_transform(final_df)
+
 print(final_df)
 # final_df.to_csv('combined.csv', index=False, encoding='utf-8-sig')
 
@@ -62,7 +66,7 @@ oversample = SMOTE()
 undersample = RandomUnderSampler()
 
     # line 67-73 using RandomForest to train the model, and line 74-80 use Tabnet
-    # please comment out the model which you don want to use.
+    # please comment out the model which you dont want to use.
 
 # rf_model = RandomForestClassifier(n_estimators=100, random_state=26)
 # pipeline = Pipeline(steps=[('o', oversample), ('u', undersample), ('model', rf_model)])
